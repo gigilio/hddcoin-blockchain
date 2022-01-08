@@ -10,7 +10,7 @@ import {
   Home as HomeIcon,
   Plot as PlotIcon,
   Pool as PoolIcon,
-  // HODLterminal as HODLterminalIcon,
+  HODLterminal as HODLterminalIcon,
   // HDDapps as HDDappsIcon,
   Settings as SettingsIcon,
 } from '@hddcoin/icons';
@@ -66,13 +66,11 @@ export default function DashboardSideBar() {
           title={<Trans>Pool</Trans>}
         />
 		*/}
-		{/* 
         <SideBarItem
           to="/dashboard/hodlterminal"
           icon={<HODLterminalIcon fontSize="large" />}
           title={<Trans>HODL</Trans>}
         />
-		*/}
 		{/* 
 		<SideBarItem
           to="/dashboard/hddapps"
