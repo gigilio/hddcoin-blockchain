@@ -65,10 +65,10 @@ if [ "$(uname)" = "Linux" ]; then
 		echo "Installing on Ubuntu 20.04 LTS."
 		sudo apt-get update
 		sudo apt-get install -y python3.8-venv python3-distutils
-	elif [ "$UBUNTU" = "true" ] && [ "$UBUNTU_2100" = "1" ]; then
+  	elif [ "$UBUNTU" = "true" ] && [ "$UBUNTU_2100" = "1" ]; then
 		echo "Installing on Ubuntu 21.04 or newer."
 		sudo apt-get update
-		sudo apt-get install -y python3.9-venv python3-distutils
+		sudo apt-get install -y python3.10-venv python3-distutils
 	elif [ "$DEBIAN" = "true" ]; then
 		echo "Installing on Debian."
 		sudo apt-get update
